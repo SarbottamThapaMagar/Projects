@@ -1,0 +1,156 @@
+Oct 15, 2018 5:54:36 AM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 5:54:42 AM Main userTransactionSelection
+INFO: You're going to insert data:
+Oct 15, 2018 5:54:42 AM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 15, 2018 5:54:55 AM TransactionMethods selectMethod
+INFO: Transaction [id=23, quantity=2342, expDate=4234, createdBy=sarbo, unitPrice=3242.0, +  totalPrice=234.0, nameOnCard=Tushar, cardNumber=371234567891234]
+Oct 15, 2018 5:54:55 AM TransactionMethods insertMethod
+INFO: Id exists: update!!(Y/N)
+Oct 15, 2018 5:54:59 AM TransactionMethods selectMethod
+INFO: Transaction [id=23, quantity=2342, expDate=4234, createdBy=sarbo, unitPrice=3242.0, +  totalPrice=234.0, nameOnCard=Tushar, cardNumber=371234567891234]
+Oct 15, 2018 8:25:59 AM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 8:26:05 AM Main userTransactionSelection
+INFO: Insert Transaction:
+Oct 15, 2018 8:26:05 AM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 15, 2018 8:31:15 AM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 8:31:21 AM Main userTransactionSelection
+INFO: Insert Transaction:
+Oct 15, 2018 8:31:21 AM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 15, 2018 8:46:01 AM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 8:46:05 AM Main userTransactionSelection
+INFO: Insert Transaction:
+Oct 15, 2018 8:46:05 AM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 15, 2018 8:46:12 AM TransactionMethods selectMethod
+INFO: Transaction [id=23, quantity=243, expDate=42342, createdBy=sarbo, unitPrice=23423.0, +  totalPrice=2342.0, nameOnCard=Maya maya, cardNumber=371234567891234]
+Oct 15, 2018 8:46:12 AM TransactionMethods insertMethod
+INFO: Id exists: update!!(Y/N)
+Oct 15, 2018 8:46:14 AM TransactionMethods selectMethod
+INFO: Transaction [id=23, quantity=243, expDate=42342, createdBy=sarbo, unitPrice=23423.0, +  totalPrice=2342.0, nameOnCard=Maya maya, cardNumber=371234567891234]
+Oct 15, 2018 8:46:42 AM TransactionMethods userInput
+INFO: not valid year 
+Oct 15, 2018 8:46:48 AM MySQLAccess updateTransaction
+INFO: An Existing user updated successfully!
+Oct 15, 2018 8:58:01 AM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 8:58:10 AM Main userTransactionSelection
+INFO: Insert Transaction:
+Oct 15, 2018 8:58:10 AM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 15, 2018 8:58:17 AM TransactionMethods selectMethod
+INFO: Transaction [id=23, quantity=2312, expDate=01/2016, createdBy=sarbo, unitPrice=131.0, +  totalPrice=13123.0, nameOnCard=Maya maya, cardNumber=0]
+Oct 15, 2018 8:58:17 AM TransactionMethods insertMethod
+INFO: Id exists: update!!(Y/N)
+Oct 15, 2018 8:58:18 AM TransactionMethods selectMethod
+INFO: Transaction [id=23, quantity=2312, expDate=01/2016, createdBy=sarbo, unitPrice=131.0, +  totalPrice=13123.0, nameOnCard=Maya maya, cardNumber=0]
+Oct 15, 2018 8:58:58 AM MySQLAccess updateTransaction
+INFO: An Existing user updated successfully!
+Oct 15, 2018 10:32:21 PM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 10:32:25 PM Main userTransactionSelection
+INFO: Insert Transaction:
+Oct 15, 2018 10:32:25 PM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 15, 2018 10:32:45 PM TransactionMethods selectMethod
+INFO: Transaction [id=23, quantity=3423, expDate=02/2018, createdBy=sarbo, unitPrice=3423.0, +  totalPrice=2342.0, nameOnCard=Maya maya, cardNumber=5512345678912345]
+Oct 15, 2018 10:32:45 PM TransactionMethods insertMethod
+INFO: Id exists: update!!(Y/N)
+Oct 15, 2018 10:32:53 PM TransactionMethods selectMethod
+INFO: Transaction [id=23, quantity=3423, expDate=02/2018, createdBy=sarbo, unitPrice=3423.0, +  totalPrice=2342.0, nameOnCard=Maya maya, cardNumber=5512345678912345]
+Oct 15, 2018 10:33:41 PM MySQLAccess updateTransaction
+INFO: An Existing user updated successfully!
+Oct 15, 2018 10:47:56 PM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 10:48:00 PM Main userTransactionSelection
+INFO: Insert Transaction:
+Oct 15, 2018 10:48:00 PM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 15, 2018 10:49:03 PM MySQLAccess createTransaction
+WARNING: java.sql.SQLSyntaxErrorException: Unknown column 'CreditCardType' in 'field list'
+Oct 15, 2018 10:50:45 PM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 10:50:47 PM Main userTransactionSelection
+INFO: Insert Transaction:
+Oct 15, 2018 10:50:47 PM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 15, 2018 10:51:18 PM MySQLAccess createTransaction
+INFO: A new row is inserted 1
+Oct 15, 2018 10:51:44 PM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 10:51:50 PM Main userTransactionSelection
+INFO: You're going to select data:
+Oct 15, 2018 10:51:50 PM Main userTransactionSelection
+INFO: Enter transaction Id: 
+Oct 15, 2018 10:51:56 PM TransactionMethods selectMethod
+INFO: Transaction [id=1, quantity=321, expDate=09/2030, createdBy=sarbo, unitPrice=1231.0, createdOn=0, totalPrice=2131.0, nameOnCard=Sarbottam thapa, cardNumber=5432123456789123, creditCardType=null]
+Oct 15, 2018 10:51:56 PM Main userTransactionSelection
+INFO: success
+Oct 15, 2018 11:06:19 PM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 11:06:25 PM Main userTransactionSelection
+INFO: You're going to select data:
+Oct 15, 2018 11:06:25 PM Main userTransactionSelection
+INFO: Enter transaction Id: 
+Oct 15, 2018 11:07:18 PM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 11:07:22 PM Main userTransactionSelection
+INFO: You're going to select data:
+Oct 15, 2018 11:07:22 PM Main userTransactionSelection
+INFO: Enter transaction Id: 
+Oct 15, 2018 11:07:27 PM TransactionMethods selectMethod
+INFO: Transaction [id=1, quantity=321, expDate=09/2030, createdBy=sarbo, unitPrice=1231.0, totalPrice=2131.0, nameOnCard=Sarbottam thapa, cardNumber=5432123456789123, creditCardType=MASTER]
+Oct 15, 2018 11:07:27 PM Main userTransactionSelection
+INFO: success
+Oct 15, 2018 11:08:14 PM Main main
+INFO: Enter the Transaction type:
+Oct 15, 2018 11:08:17 PM Main userTransactionSelection
+INFO: Insert Transaction:
+Oct 15, 2018 11:08:17 PM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 15, 2018 11:09:04 PM MySQLAccess createTransaction
+INFO: A new row is inserted 1
+Oct 16, 2018 1:30:51 AM Main main
+INFO: Enter the Transaction type:
+Oct 16, 2018 1:31:10 AM Main userTransactionSelection
+INFO: You're going to select data:
+Oct 16, 2018 1:31:10 AM Main userTransactionSelection
+INFO: Enter transaction Id: 
+Oct 16, 2018 1:31:17 AM TransactionMethods selectMethod
+INFO: Transaction [id=1, quantity=321, expDate=09/2030, createdBy=sarbo, unitPrice=1231.0, totalPrice=2131.0, nameOnCard=Sarbottam thapa, cardNumber=5432123456789123, creditCardType=MASTER]
+Oct 16, 2018 1:31:17 AM Main userTransactionSelection
+INFO: success
+Oct 16, 2018 1:31:23 AM Main main
+INFO: Enter the Transaction type:
+Oct 16, 2018 1:31:26 AM Main userTransactionSelection
+INFO: enter only select,insert,update or delete transaction type:
+Oct 16, 2018 1:31:26 AM Main userTransactionSelection
+INFO: Enter the Transaction type: 
+Oct 16, 2018 1:31:29 AM Main userTransactionSelection
+INFO: enter only select,insert,update or delete transaction type:
+Oct 16, 2018 1:31:29 AM Main userTransactionSelection
+INFO: Enter the Transaction type: 
+Oct 16, 2018 1:31:34 AM Main userTransactionSelection
+INFO: Insert Transaction:
+Oct 16, 2018 1:31:34 AM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 16, 2018 1:31:38 AM TransactionMethods selectMethod
+INFO: Transaction [id=1, quantity=321, expDate=09/2030, createdBy=sarbo, unitPrice=1231.0, totalPrice=2131.0, nameOnCard=Sarbottam thapa, cardNumber=5432123456789123, creditCardType=MASTER]
+Oct 16, 2018 1:31:38 AM TransactionMethods insertMethod
+INFO: Id exists: update!!(Y/N)
+Oct 16, 2018 1:31:41 AM TransactionMethods selectMethod
+INFO: Transaction [id=1, quantity=321, expDate=09/2030, createdBy=sarbo, unitPrice=1231.0, totalPrice=2131.0, nameOnCard=Sarbottam thapa, cardNumber=5432123456789123, creditCardType=MASTER]
+Oct 16, 2018 1:32:41 AM Main main
+INFO: Enter the Transaction type:
+Oct 16, 2018 1:32:44 AM Main userTransactionSelection
+INFO: Insert Transaction:
+Oct 16, 2018 1:32:44 AM Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Oct 16, 2018 1:33:14 AM MySQLAccess createTransaction
+INFO: A new row is inserted 1
