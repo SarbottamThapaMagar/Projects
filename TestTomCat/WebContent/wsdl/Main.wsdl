@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://mcds5510.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://mcds5510.com" xmlns:intf="http://mcds5510.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://mcds5510.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="userTransactionSelection">
+    <complexType>
+     <sequence>
+      <element name="transactionType" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="userTransactionSelectionResponse">
+    <complexType/>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="userTransactionSelectionResponse">
+
+      <wsdl:part element="impl:userTransactionSelectionResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="userTransactionSelectionRequest">
+
+      <wsdl:part element="impl:userTransactionSelection" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Main">
+
+      <wsdl:operation name="userTransactionSelection">
+
+         <wsdl:input message="impl:userTransactionSelectionRequest" name="userTransactionSelectionRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:userTransactionSelectionResponse" name="userTransactionSelectionResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="MainSoapBinding" type="impl:Main">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="userTransactionSelection">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="userTransactionSelectionRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="userTransactionSelectionResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="MainService">
+
+      <wsdl:port binding="impl:MainSoapBinding" name="Main">
+
+         <wsdlsoap:address location="http://localhost:8080/TestTomCat/services/Main"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

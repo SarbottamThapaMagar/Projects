@@ -1,0 +1,28 @@
+Nov 17, 2018 11:31:53 PM com.mcds5510.Main main
+INFO: Enter the Transaction type:
+Nov 17, 2018 11:31:59 PM com.mcds5510.Main userTransactionSelection
+INFO: You're going to select data:
+Nov 17, 2018 11:31:59 PM com.mcds5510.Main userTransactionSelection
+INFO: Enter transaction Id: 
+Nov 17, 2018 11:32:01 PM com.mcds5510.dao.TransactionMethods selectMethod
+WARNING: Exception: java.lang.NullPointerException
+Nov 17, 2018 11:32:01 PM com.mcds5510.Main userTransactionSelection
+INFO: success
+Nov 17, 2018 11:36:45 PM com.mcds5510.Main main
+INFO: Enter the Transaction type:
+Nov 17, 2018 11:36:50 PM com.mcds5510.Main userTransactionSelection
+INFO: enter only select,insert,update or delete transaction type:
+Nov 17, 2018 11:36:50 PM com.mcds5510.Main userTransactionSelection
+INFO: Enter the Transaction type: 
+Nov 17, 2018 11:36:52 PM com.mcds5510.Main userTransactionSelection
+INFO: enter only select,insert,update or delete transaction type:
+Nov 17, 2018 11:36:52 PM com.mcds5510.Main userTransactionSelection
+INFO: Enter the Transaction type: 
+Nov 17, 2018 11:37:01 PM com.mcds5510.Main userTransactionSelection
+INFO: Insert Transaction:
+Nov 17, 2018 11:37:01 PM com.mcds5510.Main userTransactionSelection
+INFO: Enter Transaction ID: 
+Nov 17, 2018 11:37:03 PM com.mcds5510.dao.TransactionMethods selectMethod
+WARNING: Exception: java.lang.NullPointerException
+Nov 17, 2018 11:37:03 PM com.mcds5510.dao.TransactionMethods insertMethod
+INFO: Id exists: update!!(Y/N)
