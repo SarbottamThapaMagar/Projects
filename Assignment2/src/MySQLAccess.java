@@ -18,9 +18,9 @@ import java.sql.Timestamp;;
 public class MySQLAccess {
 	private static final String DATABASE_DRIVER = "com.mysql.jdbc.Driver";
 	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/parts";
-	private static final String USERNAME = "root";
+	private static final String USERNAME = "***";
 
-	private static final String PASSWORD = "Sarbo@1992";
+	private static final String PASSWORD = "*****";
 
 	public Connection setupConnection() throws Exception {
 
